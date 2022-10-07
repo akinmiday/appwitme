@@ -1,0 +1,137 @@
+:root{
+--font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+}
+
+.left-side{ 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #EBEBEB;
+    flex: 1;
+    position: relative;
+}
+
+.right-side{
+    position: relative;
+    right: 0;
+    top: 0;
+    background: #fff;
+    flex: 2;
+    margin: auto;
+
+}
+
+.logo-img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.pana{
+    right: -182px;
+    bottom: 100px;
+    position: absolute;
+    z-index: 10;
+    
+}
+
+.signup-text{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    color: #000000;
+    right: 10px;
+    top: -400px;
+    margin: 10px;
+
+}
+
+.signup-text a{
+    color: #1D8700;
+    font-family: var(--font-family);
+}
+
+.signin-container{
+    position: absolute;
+    left: 250px;
+    top: -250px;
+}
+
+input{
+    width: 525px;
+    height: 55px;
+    border-radius: 8px;
+    background-color: #C4C4C4;
+    opacity: 50%; 
+    margin-top: 10px;
+    border: none;
+    font-size: 25px;
+    padding: 10px;
+}
+
+h1{
+    margin-bottom: 40px;
+    font-family: var(--font-family);
+}
+
+.detail-text{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--font-family);
+    margin-top: 15px;
+}
+
+.email-input{
+    margin-bottom: 25px;
+}
+
+.signin-btn{
+    width: 300px;
+    height: 55px;
+    background-color: #1D8700;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 55px;
+    border: #1D8700;
+    box-shadow: 0 0 5px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--font-family);
+
+}
+
+
+.password-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.password-text a{
+    color: #1D8700;
+}
+
+.signin-using{
+    display: flex;
+    align-items: center;
+    font-family: var(--font-family);
+    margin-top: 45px;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.signin-using i{
+    margin-left: 45px;
+}
+
