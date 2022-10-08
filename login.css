@@ -70,7 +70,7 @@ body{
 
 input{
     width: 525px;
-    height: 55px;
+    height: 45px;
     border-radius: 8px;
     background-color: #C4C4C4;
     opacity: 50%; 
@@ -134,4 +134,7 @@ h1{
 .signin-using i{
     margin-left: 45px;
 }
+
+
+    
 
