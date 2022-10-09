@@ -10,6 +10,11 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 100vh;
+    height: 100vh;
+}
+
 .left-section{
     background-color: #EBEBEB;
     position: fixed;
@@ -22,7 +27,7 @@
 .logo{
     margin-top: 50px;
     margin-left: 250px;
-    width: 150px;
+    width: 100px;
 }
 
 .welcomeimg-container{
@@ -59,6 +64,7 @@
 a{
     color: #1D8700;
     font-family: var(--font-family);
+    font-weight: 600;
 }
 
 h1{
@@ -73,7 +79,7 @@ h1{
 }
 
 .welcome-content p{
-    font-size: 45px;
+    font-size: 35px;
     font-family: var(--font-family);
 }
 
