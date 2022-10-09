@@ -86,14 +86,18 @@ a{
 h1{
     margin-bottom: 80px;
     font-size: 50px;
+    font-family: var(--font-family);
 }
 
 input{
     background-color: #ebebeb;
     border: none;
     height: 55px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     border-radius: 8px;
+    font-size: 25px;
+    padding: 10px;
+
 }
 
 .names{
