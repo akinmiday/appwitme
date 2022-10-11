@@ -65,6 +65,7 @@ a{
     color: #1D8700;
     font-family: var(--font-family);
     font-weight: 600;
+    cursor: pointer;
 }
 
 h1{

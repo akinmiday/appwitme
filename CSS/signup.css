@@ -35,6 +35,7 @@ p {
     margin-left: 290px;
     
     
+    
 }
 
 .cuate{
@@ -50,6 +51,7 @@ p {
 
 a{
     color: #1d8700;
+    cursor: pointer;
 }
 
 .right-side{
@@ -137,6 +139,7 @@ button{
     font-weight: 700;
     font-family: var(--font-family);
     margin-bottom: 80px;
+    cursor: pointer;
 }
 
 .signin-using{
@@ -151,4 +154,5 @@ button{
 
 .signin-using i{
     margin-left: 45px;
+    cursor: pointer;
 }

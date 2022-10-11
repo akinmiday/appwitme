@@ -42,6 +42,7 @@ body{
 
 a{
     color:#25ab00 ;
+    cursor: pointer;
 }
 
 .left-side{
@@ -64,6 +65,7 @@ a{
     width: 250px;
     height: 250px;
     border-radius: 125px;
+    
 }
 
 
@@ -137,4 +139,5 @@ button{
     font-size: 24px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }

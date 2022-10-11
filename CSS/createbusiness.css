@@ -25,11 +25,16 @@ body{
 }
 
 .leftside-header div{
+    cursor: pointer;
     margin: 25px;
 }
 
 .leftside-header p{
     margin-left: 10px;
+}
+
+.leftside-header img{
+    cursor: pointer;
 }
 
 button{
@@ -42,6 +47,7 @@ button{
     color: #fff;
     height: 55px;
     width: 250px;
+    cursor: pointer;
 }
 
 .profile-thumbnail{
@@ -50,6 +56,7 @@ button{
     width: 50px;
     border-radius: 50px;
     border: none;
+    cursor: pointer;
 }
 
 .rightside-header{
@@ -75,6 +82,7 @@ button{
 .noti-icon{
     width: 40px;
     position: relative;
+    cursor: pointer;
 }
 
 .header{
@@ -96,12 +104,14 @@ button{
     align-items: center;
     font-size: 26px;
     
+    
 }
 
 
 .logo-cont img{
     width: 100px;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 .appwitme-text{
@@ -113,6 +123,7 @@ button{
 
 .lower-section i{
     margin-right: 15px;
+    cursor: pointer;
 }
 
 i img{
@@ -142,6 +153,14 @@ i img{
     font-size: 26px;
     margin-left: 20px;
     line-height: 60px;
+}
+
+.lower-section ul li{
+    cursor: pointer;
+}
+
+i{
+    cursor: pointer;
 }
 
 footer{
@@ -283,6 +302,7 @@ h2{
 .radio-btn-cont input{
     height: 20px;
     width: 20px;
+    cursor: pointer;
 }
 
 .confirm-container{
@@ -300,6 +320,7 @@ h2{
     width: 250px;
     font-size: 23px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .confirm-container div{

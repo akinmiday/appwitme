@@ -11,6 +11,7 @@
 
 a {
     color: #25AB00;
+    cursor: pointer;
 }
 
 .leftside-header{
@@ -28,6 +29,10 @@ a {
     margin-left: 10px;
 }
 
+.leftside-header img{
+    cursor: pointer;
+}
+
 button{
     font-size: 24px;
     padding: 5px 20px;
@@ -38,14 +43,16 @@ button{
     color: #fff;
     height: 55px;
     width: 250px;
+    cursor: pointer;
 }
 
 .profile-thumbnail{
     background-color: #ebebeb;
     height: 50px;
     width: 50px;
-    border-radius: 50px;
+    border-radius: 25px;
     border: none;
+    cursor: pointer;
 }
 
 .rightside-header{
@@ -56,6 +63,7 @@ button{
 
 .rightside-header div{
     margin: 25px;
+    cursor: pointer;
 }
 
 .rightside-header input{
@@ -66,11 +74,13 @@ button{
     border: 3px solid;
     width: 250px;
     font-size: 28px;
+    
 }
 
 .noti-icon{
     width: 40px;
     position: relative;
+    cursor: pointer;
 }
 
 .header{
@@ -92,6 +102,7 @@ button{
     display: flex;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    cursor: pointer;
 }
 
 .message p {
@@ -112,6 +123,7 @@ button{
     align-items: center;  
     margin-left: 150px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    cursor: pointer;
 }
 
 .edit-icon p {
@@ -133,11 +145,13 @@ button{
 
 .lga{
     font-size: 30px;
+    cursor: pointer;
 }
 
 .state{
     font-size: 30px;
     margin-left: 100px;
+    cursor: pointer;
 }
 
 h1{
@@ -171,21 +185,27 @@ h1{
     padding-right: 650px;
 }
 
+
+
 .sectn :nth-child(1){
     text-decoration: underline;
     text-underline-offset: 50px;
+    cursor: pointer;
 }
 
 .sectn :nth-child(2){
     opacity: 40%;
+    cursor: pointer;
 }
 
 .sectn :nth-child(3){
     opacity: 40%;
+    cursor: pointer;
 }
 
 .sectn :nth-child(4){
     opacity: 40%;
+    cursor: pointer;
 }
 
 .add-business{
@@ -209,6 +229,7 @@ h1{
 .add-business button{
     border-radius: 8px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 h3{
@@ -251,6 +272,7 @@ h3{
 .logo-cont img{
     width: 100px;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 .appwitme-text{
@@ -262,10 +284,15 @@ h3{
 
 .lower-section i{
     margin-right: 15px;
+    
 }
 
 i img{
     width: 50px;
+}
+
+i{
+    cursor: pointer;
 }
 
 .lower-section{
@@ -291,6 +318,10 @@ i img{
     font-size: 26px;
     margin-left: 20px;
     line-height: 60px;
+}
+
+.lower-section ul li{
+    cursor: pointer;
 }
 
 footer{

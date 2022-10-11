@@ -11,6 +11,7 @@
 
 a {
     color: #25AB00;
+    cursor: pointer;
 }
 
 body{
@@ -26,6 +27,7 @@ body{
 
 .leftside-header div{
     margin: 25px;
+    cursor: pointer;
 }
 
 .leftside-header p{
@@ -42,6 +44,7 @@ button{
     color: #fff;
     height: 55px;
     width: 250px;
+    cursor: pointer;
 }
 
 .profile-thumbnail{
@@ -50,6 +53,7 @@ button{
     width: 50px;
     border-radius: 50px;
     border: none;
+    cursor: pointer;
 }
 
 .rightside-header{
@@ -60,6 +64,7 @@ button{
 
 .rightside-header div{
     margin: 25px;
+    cursor: pointer;
 }
 
 .rightside-header input{
@@ -75,6 +80,7 @@ button{
 .noti-icon{
     width: 40px;
     position: relative;
+    cursor: pointer;
 }
 
 .header{
@@ -102,6 +108,7 @@ button{
 .logo-cont img{
     width: 100px;
     margin-right: 20px;
+
 }
 
 .appwitme-text{
@@ -113,6 +120,10 @@ button{
 
 .lower-section i{
     margin-right: 15px;
+}
+
+i{
+    cursor: pointer;
 }
 
 i img{
@@ -142,6 +153,10 @@ i img{
     font-size: 26px;
     margin-left: 20px;
     line-height: 60px;
+}
+
+.lower-section ul li {
+    cursor: pointer;
 }
 
 footer{
