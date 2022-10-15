@@ -17,6 +17,7 @@ body{
 
 a {
     color: #25AB00;
+    cursor: pointer;
 }
 
 .leftside-header{
@@ -65,7 +66,7 @@ button{
 }
 
 .rightside-header input{
-    background: url(/icons/searchicon.png) no-repeat scroll 210px padding-box  ;
+    background: url(/icons/searchicon.png) no-repeat scroll 210px padding-box ;
     height: 40px;
     padding: 5px;
     border-radius: 8px;
@@ -135,6 +136,7 @@ h1{
 
 .lower-section i{
     margin-right: 15px;
+    cursor: pointer;
 }
 
 i img{
@@ -164,6 +166,10 @@ i img{
     font-size: 26px;
     margin-left: 20px;
     line-height: 60px;
+}
+
+.lower-section ul li{
+    cursor: pointer;
 }
 
 footer{
@@ -337,6 +343,7 @@ main{
 .sign-in-up-area button{
  border-radius: 15px;
  margin-right: 60px;
+ cursor: pointer;
 }
 
 
