@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/CSS/home-page.css">
+    <link rel="stylesheet" href="/CSS/search-result.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Search Result</title>
 </head>
 <body>
     
@@ -29,16 +29,22 @@
 
     </header>
 
-    <div class="top-section">
-        <div class="top-left-section">
-            <h1>Discover Nigeria's Trustworthy <br> Stores & retail markets</h1>
-            <p>Appwitme is an online marketplace for listing and showcasing businesses<br>
-                in Nigeria from small scale enterprises to large organisations</p>
-                <button>Sign up</button>
+    <div >
+        <div class="search-container">
+            <input placeholder="Search here" type="search">
         </div>
-            <div class="top-right-section">
-                <img src="/mobile-login/Rectangle 96.png" alt="">
+
+        <div class="searchdetails" >
+            <h1>Mechanics</h1>
+            <p>Explore over 300 Mechanics</p>
+            <div class="related">
+                <p>Related:</p>
+                <div>Rewire</div>
+                <div>Electrician</div>
+                <div>Auto-mobiles</div>
+                <div>Blacksmith</div>
             </div>
+        </div>
     </div>
 
     <div class="filter-category-section">
@@ -67,6 +73,59 @@
 
         <div>Professional</div>
         
+    </div>
+
+    <div class="form-container">
+        <div>
+            <p>Locations</p>
+            <form action="">
+                <input list="Location" placeholder="Select location" name="Location">
+                <datalist id="Location">
+                  <option value="Ibadan">
+                  <option value="Lagos">
+                  <option value="Ikeja">
+                </datalist>
+              </form>
+    
+        </div>
+    
+        <div>
+            <p>Categories</p>
+            <form action="">
+                <input list="categories" placeholder="Select Categories" name="categories">
+                <datalist id="categories">
+                  <option value="Auto Mechanic">
+                  <option value="Branding">
+                  <option value="Beauty">
+                </datalist>
+              </form>
+        </div>
+    
+        <div>
+            <p>Status</p>
+            <form action="">
+                <input list="status" placeholder="Select Status" name="status">
+                <datalist id="status">
+                  <option value="Veified businesses">
+                  <option value="Unverified businesses">
+                    <option value="All">
+                </datalist>
+              </form>
+        </div>
+    
+        <div>
+            <p>Reviews</p>
+            <form action="">
+                <input list="reviews" placeholder="Select Reviews" name="reviews">
+                <datalist id="reviews">
+                  <option value="5 stars">
+                  <option value="4 stars">
+                  <option value="3 stars">
+                  <option value="2 stars">
+                  <option value="1 stars">
+                </datalist>
+              </form>
+        </div>
     </div>
 
 
@@ -202,7 +261,8 @@
                         <div class="dets-container" ><p>Koke Unisex Salon</p>
                             <p class="biz-category" >Hair Salon</p>
                         
-                        </div></div>
+                        </div>
+                    </div>
                         
 
                     <i class="rating-container" ><img class="star-icon" src="/icons/Star.png" alt="">4.5</i>
@@ -216,15 +276,18 @@
                 </div>
                 <div class="business-info" >
 
+                    <div class="thumnail-name">
+                        
+                        <img class="biz-prof-thumbnail" src="/mobile-login/Ellipse 1.png" alt="">
 
-                            <img class="biz-prof-thumbnail" src="/mobile-login/Ellipse 1.png" alt="">
-
-                            <div class="dets-container" >
-                                
-                                <p>Click Data</p>
-                                <p class="biz-category" >Fashion Store</p>
+                        <div class="dets-container" >
                             
-                            </div>
+                            <p>Click Data</p>
+                            <p class="biz-category" >Fashion Store</p>
+                        
+                        </div>
+                    </div>
+
                             <i class="rating-container" ><img class="star-icon" src="/icons/Star.png" alt="">4.2</i>
                        
                 </div> 

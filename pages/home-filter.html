@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/CSS/home-page.css">
+    <link rel="stylesheet" href="/CSS/home-filter.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Filter</title>
 </head>
 <body>
     
@@ -67,6 +67,59 @@
 
         <div>Professional</div>
         
+    </div>
+
+    <div class="form-container">
+        <div>
+            <p>Locations</p>
+            <form action="">
+                <input list="Location" placeholder="Select location" name="Location">
+                <datalist id="Location">
+                  <option value="Ibadan">
+                  <option value="Lagos">
+                  <option value="Ikeja">
+                </datalist>
+              </form>
+    
+        </div>
+    
+        <div>
+            <p>Categories</p>
+            <form action="">
+                <input list="categories" placeholder="Select Categories" name="categories">
+                <datalist id="categories">
+                  <option value="Auto Mechanic">
+                  <option value="Branding">
+                  <option value="Beauty">
+                </datalist>
+              </form>
+        </div>
+    
+        <div>
+            <p>Status</p>
+            <form action="">
+                <input list="status" placeholder="Select Status" name="status">
+                <datalist id="status">
+                  <option value="Veified businesses">
+                  <option value="Unverified businesses">
+                    <option value="All">
+                </datalist>
+              </form>
+        </div>
+    
+        <div>
+            <p>Reviews</p>
+            <form action="">
+                <input list="reviews" placeholder="Select Reviews" name="reviews">
+                <datalist id="reviews">
+                  <option value="5 stars">
+                  <option value="4 stars">
+                  <option value="3 stars">
+                  <option value="2 stars">
+                  <option value="1 stars">
+                </datalist>
+              </form>
+        </div>
     </div>
 
 
@@ -216,15 +269,17 @@
                 </div>
                 <div class="business-info" >
 
+                    <div class="thumnail-name">
+                        <img class="biz-prof-thumbnail" src="/mobile-login/Ellipse 1.png" alt="">
 
-                            <img class="biz-prof-thumbnail" src="/mobile-login/Ellipse 1.png" alt="">
-
-                            <div class="dets-container" >
-                                
-                                <p>Click Data</p>
-                                <p class="biz-category" >Fashion Store</p>
+                        <div class="dets-container" >
                             
-                            </div>
+                            <p>Click Data</p>
+                            <p class="biz-category" >Fashion Store</p>
+                        
+                        </div>
+                    </div>
+
                             <i class="rating-container" ><img class="star-icon" src="/icons/Star.png" alt="">4.2</i>
                        
                 </div> 

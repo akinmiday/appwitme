@@ -325,9 +325,8 @@ main{
     padding: 40px 50px;
 }
 
-.filter-category-section :nth-child(2){
-    background-color: #c8c6c6;
-    padding: 5px 15px;
+.filter-category-section :nth-child(1){
+    background-color: #d2d0d0;
 }
 
 .filter-category-section div{
@@ -352,4 +351,27 @@ main{
 
 .thumnail-name{
     display: flex;
+}
+
+form input{
+    width: 400px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 12px;
+    padding: 10px;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.form-container div p{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
