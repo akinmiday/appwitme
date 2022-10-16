@@ -80,6 +80,7 @@ button{
 
 .rightside-header button{
     margin-left: 30px;
+    cursor: pointer;
 }
 
 .header{
@@ -203,6 +204,7 @@ footer{
     background-color: #ebebeb;
     border-radius: 15px;
     position: relative;
+    cursor: pointer;
 }
 
 .img-thumbnail img{
@@ -275,6 +277,7 @@ main{
     align-items: center;
     border-radius: 12px;
     font-size: 32px;
+    cursor: pointer;
 }
 
 .filter-btn img{
@@ -335,7 +338,7 @@ form input{
     align-items: center;
     justify-content: space-between;
     padding: 20px 100px;
-    margin-bottom: 120px;
+    margin-bottom: 30px;
 }
 
 .form-container div p{
@@ -385,7 +388,6 @@ form input{
     text-align: center;
     padding: 20px 850px;
     margin-top: 100px;
-    margin-bottom: 50px;
 }
 
 .searchdetails div p{
